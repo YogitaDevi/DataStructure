@@ -11,10 +11,11 @@ namespace DataStructure
     {
         public T data;
         public Node<T> next;
-        public Node(T data)
+
+        public Node(T value)
         {
-            this.data = data;
-            this.next = null;
+            data = value;
+            next = null;
         }
     }
 }
